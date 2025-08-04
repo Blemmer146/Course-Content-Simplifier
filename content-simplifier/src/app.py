@@ -114,9 +114,9 @@ with st.sidebar:
 
     st.markdown("""
     **Where to find these values:**
-    - **API Key**: [IBM Cloud Console](https://cloud.ibm.com/iam/apikeys) → Create API Key
-    - **Project ID**: Your Watsonx.ai project → Manage tab → General → Details
-    - **Template ID**: Watsonx.ai project → Prompt Lab → Your saved template → Asset ID
+    - **API Key**: [IBM Cloud Console](https://cloud.ibm.com/iam/apikeys) → Create API Key  
+    - **Project ID**: Watsonx.ai project → Manage tab → General → Details  
+    - **Template ID**: Watsonx.ai → Prompt Lab → Deploy your template to a Deployment Space → Open Deployed Asset → **Source Asset ID**
     """)
 
     api_key = st.text_input("API Key",
@@ -555,8 +555,8 @@ else:
 
     **📝 Prompt Template Asset ID:**
     - In your Watsonx.ai project, go to "Prompt Lab"
-    - Find your saved prompt template
-    - Copy the Asset ID (usually shown in the template details)
+    - Deploy your saved prompt template to a Deployment Space
+    - Open the deployed asset and copy the **Source Asset ID**
 
     ### 2. Configure in sidebar:
     - Enter your API key and project ID

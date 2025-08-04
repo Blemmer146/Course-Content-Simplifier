@@ -102,8 +102,9 @@ A Streamlit-based application that leverages IBM Watsonx.ai's Granite models to 
 
 ### Prompt Template Asset ID
 1. In your Watsonx.ai project, go to "Prompt Lab"
-2. Find your saved prompt template
-3. Copy the Asset ID from template details
+2. Deploy your saved prompt template to a Deployment Space
+3. In the Deployment Space, open the deployed asset
+4. Under Asset Details, locate the Source Asset ID — this is your Prompt Template Asset ID
 
 ### Supported Regions
 - `us-south` (Dallas)
